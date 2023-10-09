@@ -1,0 +1,84 @@
+/* main heading */
+.main-heading {
+    padding: 4rem 0;
+    flex-direction: column;
+    align-items: start;
+    gap: .6rem;
+}
+
+.main-heading h2 {
+    font-weight: 500;
+}
+
+.main-heading h5 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* costomer card */
+.costomer-card {
+    margin-bottom: 5rem;
+}
+
+.card-heading {
+    padding: 1rem 0;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+}
+.card-heading h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card-heading h2 {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+/* card content */
+.card-content {
+    gap: 4rem;
+}
+
+.card-content .main-img {
+    width: 600px;
+}
+
+.card-content .card-details {
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.card-content .card-details img {
+    width: 50px;
+}
+
+.card-content .card-details > h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.costomer {
+    gap: 1rem;
+}
+
+.costomer div h3 {
+    font-size: 1rem;
+}
+
+.costomer div h4 {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.logos {
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logos img {
+    width: 150px;
+}
