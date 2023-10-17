@@ -13,6 +13,7 @@
     --accent-color-dark: #019ccf;
     --accent-color: #4fb3d4;
     --padding-inline-section:20px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -172,6 +173,30 @@ a {
 
 .hover-product-menu-elem h3:hover {
     cursor: pointer;
+}
+
+/* hyperlinks */
+
+.hyperlinks {
+    padding: .5rem .5rem;
+    display: flex;
+    gap: 1rem;
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+    margin-block: 1rem;
+}
+
+.hyperlinks a {
+    color: #000;
+    border-radius: 10px;
+    padding: .5rem .5rem;
+    border: 1px solid #000;
+    transition: all .2s ease-in-out;
+}
+
+.hyperlinks a:hover {
+    color: #fff;
+    background-color: var(--accent-color-dark);
 }
 
 /* header */
